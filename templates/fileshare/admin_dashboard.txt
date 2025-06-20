@@ -1,0 +1,10 @@
+{% extends 'fileshare/base.html' %}
+{% block content %}
+<h2 class="text-center">Admin Dashboard</h2>
+<h4 class="mt-4">Registered Users</h4>
+<ul class="list-group">
+{% for user in users %}
+    <li class="list-group-item">{{ user.username }} - {{ user.email }} (Role: {{ user.role }})</li>
+{% endfor %}
+</ul>
+{% endblock %}

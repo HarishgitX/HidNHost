@@ -1,0 +1,9 @@
+{% extends 'fileshare/base.html' %}
+{% block content %}
+<h2 class="text-center">User Login</h2>
+<form method="post" class="card p-4 shadow-sm bg-white mt-4">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit" class="btn btn-primary w-100">Login</button>
+</form>
+{% endblock %}

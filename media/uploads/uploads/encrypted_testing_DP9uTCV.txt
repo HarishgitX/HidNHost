@@ -1,0 +1,8 @@
+Conclusion
+To check access control: Always filter and check file ownership in your views.
+
+To check encryption: Use the encrypted field in your model, and implement actual encryption in your upload/download logic.
+
+To test: Use two different user accounts and try to access each other’s files.
+
+If you want to implement advanced access control (like role-based or object-level permissions), consider using Django’s built-in permissions or third-party packages

@@ -1,0 +1,10 @@
+{% extends 'fileshare/base.html' %}
+{% block content %}
+<div class="text-center">
+    <h1 class="display-4">Welcome to Secure File Share</h1>
+    <p class="lead">Safely upload and download encrypted files.</p>
+    {% if not user.is_authenticated %}
+    <a href="{% url 'register' %}" class="btn btn-primary">Get Started</a>
+    {% endif %}
+</div>
+{% endblock %}

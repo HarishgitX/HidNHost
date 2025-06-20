@@ -1,0 +1,11 @@
+asgiref==3.8.1
+bleach==6.2.0
+crispy-bootstrap4==2025.6
+Django==5.2.3
+django-crispy-forms==2.4
+input-sanitizer==0.2.3
+pillow==11.2.1
+pycryptodome==3.23.0
+sqlparse==0.5.3
+tzdata==2025.2
+webencodings==0.5.1
