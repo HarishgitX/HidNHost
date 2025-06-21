@@ -127,7 +127,8 @@ USE_TZ = True
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-ALLOWED_HOSTS = ['onrender.com']
+ALLOWED_HOSTS = ['hidnhost.onrender.com', 'localhost', '127.0.0.1']
+
 
 
 import os
